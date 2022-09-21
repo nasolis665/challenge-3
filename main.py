@@ -22,7 +22,8 @@ listText=lowText.split()
 print(len(listText))
 #Mateo
 # 3. What are the first and last letters of the text? Here, we will clearly use indexing.
-
+print(lowText[0])
+print(lowText[-1])
 #Nathan
 # 4. The system will show us how the text would look like if we inverted the order of the words. Is there any method that allows us to invert the order of a list? And another one that allows us to join these elements with spaces in between?
 print(listText[::-1])
