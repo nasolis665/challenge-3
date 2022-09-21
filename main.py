@@ -18,14 +18,15 @@ print(lowText.count(rnd3))
 
 #Mateo
 # 2. How many words are in the whole text? To achieve this part, remember that there is a string method that allows us to transform it into a list. And then there is a function that allows us to find out the length of a list.
-lowText.list
-print(len(lowText))
+listText=lowText.split()
+print(len(listText))
 #Mateo
 # 3. What are the first and last letters of the text? Here, we will clearly use indexing.
 
 #Nathan
 # 4. The system will show us how the text would look like if we inverted the order of the words. Is there any method that allows us to invert the order of a list? And another one that allows us to join these elements with spaces in between?
-print(lowText[::-1])
+print(listText[::-1])
 
 #Nathan
 # 5. The system will tell us if the word “python” is inside the text. This part can be a bit complicated to imagine, but I'll give you a hint: you can use Booleans to make your enquiry and a dictionary to find ways to express your answer.
+print("python" in lowText)
