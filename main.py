@@ -18,7 +18,7 @@ print(lowText.count(rnd3))
 
 #Mateo
 # 2. How many words are in the whole text? To achieve this part, remember that there is a string method that allows us to transform it into a list. And then there is a function that allows us to find out the length of a list.
-listText=lowText.split()
+listText=lowText.split(" ")
 print(len(listText))
 #Mateo
 # 3. What are the first and last letters of the text? Here, we will clearly use indexing.
